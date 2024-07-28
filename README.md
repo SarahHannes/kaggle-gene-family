@@ -3,6 +3,10 @@
 ### Goal
 Predicting gene family from human DNA sequence
 
+### Dataset
+- Human DNA sequence with 7 gene class as target
+- Dataset source: https://www.kaggle.com/datasets/neelvasani/humandnadata
+
 ### Conclusion
 - Trained 3 models (MultinomialNB, XGBoost, LightGBM).
 - Tried out 2 NLP processing techniques (CountVectorizer, TFIDF) -- CountVectorizer performed better than TFIDF.
